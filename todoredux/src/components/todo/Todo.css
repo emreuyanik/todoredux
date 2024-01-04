@@ -1,0 +1,94 @@
+.todo-input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.add-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: rgb(87, 176, 199);
+  color: white;
+}
+
+.ok-logo {
+  width: 60px;
+  border: 2px solid turquoise;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.todoText {
+  /* width: 75%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clear-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear-button {
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+}
+
+.delete-logo {
+  width: 60px;
+  border: 2px solid red;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.imgtop {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: aquamarine;
+  border: 5px solid transparent; 
+  animation: neon-border 1s linear infinite; 
+}
+
+@keyframes neon-border {
+  0% { border-color: transparent; }
+  50% { border-color: olive; }
+  100% { border-color: transparent; }
+}
+
+.imgtop:hover {
+  animation: neon-border-slide 1s linear infinite;
+}
+
+@keyframes neon-border-slide {
+  0% {
+    border-width: 5px;
+    border-color: transparent;
+  }
+  25% {
+    border-width: 10px;
+    border-color: aqua;
+  }
+  50% {
+    border-width: 5px;
+    border-color: transparent;
+  }
+  75% {
+    border-width: 10px;
+    border-color: hotpink;
+  }
+  100% {
+    border-width: 5px;
+    border-color: transparent;
+  }
+}
